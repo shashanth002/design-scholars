@@ -17,13 +17,13 @@ const prototypeScreenshots = [
 
 // ---- EMBEDDED IMAGE DATA (auto-generated) ----
 const IMGS = {
-  senior: "/images/senior.png",
-  ghmc: "/images/ghmc.png",
-  office: "/images/office.png",
-  female: "/images/female.png",
-  student: "/images/student.png",
-  problems: "/images/problems.png",
-  rootcause: "/images/rootcause.png",
+  senior: `${import.meta.env.BASE_URL}images/senior.png`,
+  ghmc: `${import.meta.env.BASE_URL}images/ghmc.png`,
+  office: `${import.meta.env.BASE_URL}images/office.png`,
+  female: `${import.meta.env.BASE_URL}images/female.png`,
+  student: `${import.meta.env.BASE_URL}images/student.png`,
+  problems: `${import.meta.env.BASE_URL}images/problems.png`,
+  rootcause: `${import.meta.env.BASE_URL}images/rootcause.png`,
 };
 
 // ---- DATA ----
