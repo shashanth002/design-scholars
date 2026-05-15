@@ -11,7 +11,7 @@ const surveyRecordingLinks = [
 ];
 
 const prototypeScreenshots = [
-  "/images/prototype.png",
+  `${import.meta.env.BASE_URL}images/prototype.png`,
 ];
 // ============================================================
 
